@@ -5,13 +5,13 @@ This repo has the solution source code files for the C++ recursion article.
 
 The solution list:
 
-1. solns_that_don't_measure_stack_size \ solns_with_two_CPP_files \ arrays
+1. solns_that_don_t_measure_stack_size \ solns_with_two_CPP_files \ arrays
 
-2. solns_that_don't_measure_stack_size \ solns_with_two_CPP_files \ vectors
+2. solns_that_don_t_measure_stack_size \ solns_with_two_CPP_files \ vectors
 
-3. solns_that_don't_measure_stack_size \ solns_with_three_CPP_files \ arrays
+3. solns_that_don_t_measure_stack_size \ solns_with_three_CPP_files \ arrays
 
-4. solns_that_don't_measure_stack_size \ solns_with_three_CPP_files \ vectors
+4. solns_that_don_t_measure_stack_size \ solns_with_three_CPP_files \ vectors
 
 5. solns_that_measure_stack_size \ solns_with_two_CPP_files \ arrays
 
