@@ -45,7 +45,7 @@ int main() {
 	//
 	//	that has the name of the lambda itself.
 
-	std::function<bool(int[])> innerRecLambda;
+	std::function<bool (int[])> innerRecLambda;
 	innerRecLambda = [&innerRecLambda, &arrayPtr, &frameMinAddress](int x[]) {
 
 		//	In separate variables, add and subtract pentagonal
