@@ -53,7 +53,7 @@ int main() {
 	//	reference parameter, each stack frame operates
 	//	on the same vector - exactly what we want.
 
-	std::function<bool(std::vector<int>&)> innerRecLambda;
+	std::function<bool (std::vector<int>&)> innerRecLambda;
 	innerRecLambda = [&innerRecLambda, &vectorPtr, &frameMinAddress](std::vector<int>& x) {
 
 		//	In separate variables, add and subtract pentagonal
