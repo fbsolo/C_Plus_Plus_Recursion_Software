@@ -87,7 +87,7 @@ int main() {
 	//
 	//	that has the name of the lambda itself.
 	//
-	//	As explained above, pass the integer vector parameter
+	//	As explained above, pass the integer array parameter
 	//	by reference (&) in the lambda signature.
 
 	std::function<int* (int[])> outerRecLambda;
@@ -162,7 +162,7 @@ int main() {
 
 	//	Show everything in the console box.
 
-	std::cout << "\n\tThe calculated x vector values --> pentagonal numbers: " << "\n\n";
+	std::cout << "\n\tThe calculated x array values --> pentagonal numbers: " << "\n\n";
 	std::cout << "\tx[1] = " << finishedValues[1] << " --> gen_pentnum(x[1]) = gen_pentnum(" << finishedValues[1] << ") = " << gen_pentnum(finishedValues[1]) << "\n";
 	std::cout << "\tx[0] = " << finishedValues[0] << " --> gen_pentnum(x[0]) = gen_pentnum(" << finishedValues[0] << ") = " << gen_pentnum(finishedValues[0]) << "\n\n";
 	std::cout << "\t\t\tgen_pentnum(x[1]) + gen_pentnum(x[0]) = " << gen_pentnum(finishedValues[1]) + gen_pentnum(finishedValues[0]) << "\n";
