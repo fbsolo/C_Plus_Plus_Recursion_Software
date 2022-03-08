@@ -166,13 +166,13 @@ int main() {
 				return outerRecLambda(x);
 			} else {
 
-				//	We found the solution x[] array values
+				//	We found the solution x[] vector values
 
 				return (x);
 			}
 		} else {
 
-			//	We found the solution x[] array values
+			//	We found the solution x[] vector values
 
 			return (x);
 		}
