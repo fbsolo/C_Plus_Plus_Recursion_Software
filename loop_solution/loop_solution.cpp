@@ -76,4 +76,6 @@ int main() {
 
 	std::cout << "\n\tCalculation Time = " << timeDifference.count();
 	std::cout << " seconds\n\n";
+
+	system("pause");
 }
