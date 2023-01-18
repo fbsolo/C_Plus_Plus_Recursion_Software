@@ -192,4 +192,6 @@ int main() {
 	std::cout << "\t\t\t" << gen_pentnum(finishedValues[1]) - gen_pentnum(finishedValues[0]) << " is a pentagonal number: " << is_pentnum(gen_pentnum(finishedValues[1]) - gen_pentnum(finishedValues[0])) << "\n\n";
 
 	std::cout << "\t\t\tCalculation Time = " << timeDifference.count() << " seconds\n\n";
+
+	system("pause");
 }
