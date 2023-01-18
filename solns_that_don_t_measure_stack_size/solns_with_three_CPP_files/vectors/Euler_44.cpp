@@ -171,4 +171,6 @@ int main() {
 	std::cout << "\t\t\t" << pfObj.gen_pentnum(finishedValues[1]) - pfObj.gen_pentnum(finishedValues[0]) << " is a pentagonal number: " << pfObj.is_pentnum(pfObj.gen_pentnum(finishedValues[1]) - pfObj.gen_pentnum(finishedValues[0])) << "\n\n";
 
 	std::cout << "\n\t\t\tCalculation Time = " << timeDifference.count() << " seconds\n\n";
+
+	system("pause");
 }
