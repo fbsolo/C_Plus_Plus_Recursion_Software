@@ -212,4 +212,6 @@ int main() {
 
 	std::cout << "\t\t\tCalculation Time = " << timeDifference.count() << " seconds\n";
 	std::cout << "\n\t\t\tEstimated use of stack resources: " << (frameMaxAddress - frameMinAddress) << " bytes\n\n";
+
+	system("pause");
 }
